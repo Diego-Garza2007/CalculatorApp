@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+// PEDRO CAMBIA LOS NOMBRES PARA TENER MAS SENTIDO EN EL CODIGO xD papu zi
+$font-default: "League Spartan", sans-serif;
+
+// Colors
+// Theme 1
+    // backgrounds
+$main-bg1: hsl(222, 26%, 31%);
+$toggle-bg1: hsl(223, 31%, 20%);
+$screen-bg1: hsl(224, 36%, 15%);
+    // Keys
+$key-bg1: hsl(225, 21%, 49%);
+$key-shadow1: hsl(224, 28%, 35%);
+$r-key-bg1: hsl(6, 63%, 50%);
+$r-key-shadow1: hsl(6, 70%, 34%);
+$o-key-bg1: hsl(30, 25%, 89%);
+$o-key-bg1: hsl(28, 16%, 65%);
+    // text
+$text1: hsl(221, 14%, 31%);
+$white: hsl(0, 0%, 100%);
+
+// Theme 2
+    // backgrounds
+$main-bg2: hsl(0, 0%, 90%);
+$toggle-bg2: hsl(0, 5%, 81%);
+$screen-bg2: hsl(0, 0%, 93%);
+    // Keys
+$key-bg2: hsl(185, 42%, 37%);
+$key-shadow2: hsl(185, 58%, 25%);
+$r-key-bg2: hsl(25, 98%, 40%);
+$r-key-shadow2: hsl(25, 99%, 27%);
+$o-key-bg2: hsl(45, 7%, 89%);
+$o-key-bg2: hsl(35, 11%, 61%);
+    // text
+$text2: hsl(60, 10%, 19%);
+
+
+// Theme 3
+    // backgrounds
+$main-bg3: hsl(268, 75%, 9%);
+$toggle-bg3: hsl(268, 71%, 12%);
+    // Keys
+$key-bg3: hsl(281, 89%, 26%);
+$key-shadow3: hsl(285, 91%, 52%);
+$r-key-bg3: hsl(176, 100%, 44%);
+$r-key-shadow3: hsl(177, 92%, 70%);
+$o-key-bg3: hsl(268, 47%, 21%);
+$o-key-bg3: hsl(290, 70%, 36%);
+    // text
+$text3: hsl(52, 100%, 62%);
+$darkBlue3: hsl(198, 20%, 13%);
+
+
+
+
+
+$primary-bg: #3b4664;
+$results-bg: #181f32;
+$secondary-bg: #252d44;
+
+$buttons-color: #eae3db;
+$buttons-shadow: #b2a295;
+
+$buttons2-color: #647297;
+$buttons2-shadow: #414f76;
+
+$button3-color: #d13f30;
+$button3-shadow: #8f2316;
+
+$texts-color: #fefffd;
+$num-text: #474a5d;
