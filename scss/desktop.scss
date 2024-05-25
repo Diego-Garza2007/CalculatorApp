@@ -1,5 +1,18 @@
+@use 'variables';
 @media (min-width: 1024px) {
-    body {
-        background-color: black;
-    }
+    
+    /* Desktop Design */
+    
+    .calc{
+        width: 700px;
+        height: 800px;
+    
+        &__title{
+            color: variables.$white;
+            font-size: 48px;
+            margin: 0px 3px 40px 50px;
+        }
+
+    
+}   
 }

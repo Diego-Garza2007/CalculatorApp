@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/desktop.scss"],"names":[],"mappings":"AAAA;EACI;IACI","file":"desktop.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/_variables.scss","../scss/desktop.scss"],"names":[],"mappings":"AAAQ;ACCR;AAEI;EAEA;IACI;IACA;;EAEA;IACI,ODPJ;ICQI;IACA","file":"desktop.css"}

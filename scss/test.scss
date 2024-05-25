@@ -1,0 +1,142 @@
+@use 'variables';
+
+body.theme-1 {
+    background-color: variables.$main-bg1;
+
+    .container {
+        .calc {
+            
+            &__result {
+                background-color: variables.$screen-bg1;
+                color: variables.$white;
+            }
+            &__background {
+                background-color: variables.$toggle-bg1;
+            }
+            &__btn {
+                background: variables.$o-key-bg1;
+                 box-shadow: 0 6px variables.$o-key-shadow1;
+
+                &:hover {
+                    background-color: variables.$white;
+                    color: variables.$text1;
+                }
+
+                 &__igual {
+                    background: variables.$r-key-bg1;
+                    box-shadow: 1px 6px variables.$r-key-shadow1;
+
+                    &:hover {
+                        background-color: tomato;
+                        color: white;
+                    }
+                 }
+            }
+            &__btn--dif {
+                background-color: variables.$key-bg1;
+                box-shadow: 1px 6px variables.$key-shadow1;
+
+                &:hover{
+                    background-color: hsl(226, 100%, 83%);
+                    color: variables.$white;
+                }
+            }
+        }
+    }
+
+}
+
+body.theme-2 {
+    background-color: variables.$main-bg2;
+
+    .container {
+        .calc {
+            
+            &__result {
+                background-color: variables.$screen-bg2;
+                color: variables.$text2;
+            }
+            &__background {
+                background-color: variables.$toggle-bg2;
+            }
+            &__btn {
+                background: variables.$o-key-bg2;
+                box-shadow: 0 6px variables.$o-key-shadow2;
+
+                &:hover {
+                    background-color: variables.$white;
+                    color: variables.$text1;
+                }
+
+                 &__igual {
+                    background: variables.$r-key-bg2;
+                    box-shadow: 1px 6px variables.$r-key-shadow2;
+
+                    &:hover {
+                        background-color: tomato;
+                        color: white;
+                    }
+                 }
+            }
+            &__btn--dif {
+                background-color: variables.$key-bg2;
+                box-shadow: 1px 6px variables.$key-shadow2;
+
+                &:hover{
+                    background-color: hsl(184, 27%, 48%);
+                    color: variables.$white;
+                }
+
+            }
+        }
+    }
+
+}
+
+body.theme-3 {
+    background-color: variables.$main-bg3;
+
+    .container {
+        .calc {
+            
+            &__result {
+                background-color: variables.$toggle-bg3;
+                color: variables.$text3;
+            }
+            &__background {
+                background-color: variables.$toggle-bg3;
+            }
+            &__btn {
+                background: variables.$o-key-bg3;
+                 box-shadow: 0 6px variables.$o-key-shadow3;
+                 color: variables.$text3;
+                 &:hover {
+                    background-color: variables.$key-shadow3;
+                   
+                }
+
+                 &__igual {
+                    background: variables.$r-key-bg3;
+                    box-shadow: 1px 6px variables.$r-key-shadow3;
+
+                    &:hover {
+                        background-color: variables.$r-key-shadow3;
+                        color: white;
+                    }
+                 }
+            }
+            &__btn--dif {
+                background-color: variables.$key-bg3;
+                box-shadow: 1px 6px variables.$key-shadow3;
+                
+                &:hover{
+                    background-color: hsl(281, 66%, 49%);
+                    color: variables.$white;
+                }
+
+            }
+
+        }
+    }
+
+}

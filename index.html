@@ -7,42 +7,56 @@
   <title>Frontend Mentor | Calculator app</title>
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/desktop.css">
+  <link rel="stylesheet" href="css/test.css">
 </head>
-<body>
+<body class="theme-1">
   <div class="container">
-    <div class="calc">
-    <h1 class="calc__title">calc</h1>
-
-    <div class="calc__result">
-        <h1 class="calc__numbers">399,981</h1>
-    </div>
-
-    <div class="calc__background">
-        
-        <div class="calc__buttons">
-            <button class="calc__btn">7</button>
-            <button class="calc__btn">8</button>
-            <button class="calc__btn">9</button>
-            <button class="calc__btn calc__btn--dif">DEL</button>
-            <button class="calc__btn">4</button>
-            <button class="calc__btn">5</button>
-            <button class="calc__btn">6</button>
-            <button class="calc__btn">+</button>
-            <button class="calc__btn">1</button>
-            <button class="calc__btn">2</button>
-            <button class="calc__btn">3</button>
-            <button class="calc__btn">-</button>
-            <button class="calc__btn">.</button>
-            <button class="calc__btn">0</button>
-            <button class="calc__btn">/</button>
-            <button class="calc__btn">x</button>
-            <button class="calc__btn calc__btn__reset calc__btn--dif">RESET</button>
-            <button class="calc__btn calc__btn__igual">=</button>
+      <div class="calc">
+        <section class="header">
+          <h1>calc</h1>
+          <div class="switch-container">
+            <label>
+                <input type="radio" name="colorSwitch" value="1" checked> Opción 1
+            </label>
+            <label>
+                <input type="radio" name="colorSwitch" value="2"> Opción 2
+            </label>
+            <label>
+                <input type="radio" name="colorSwitch" value="3"> Opción 3
+            </label>
         </div>
-    </div>
-    </div>
+        </section>
+        
+      <div class="calc__result">
+          <h1 class="calc__numbers">399,981</h1>
+      </div>
+
+      <div class="calc__background">
+          
+          <div class="calc__buttons">
+              <button class="calc__btn">7</button>
+              <button class="calc__btn">8</button>
+              <button class="calc__btn">9</button>
+              <button class="calc__btn calc__btn--dif">DEL</button>
+              <button class="calc__btn">4</button>
+              <button class="calc__btn">5</button>
+              <button class="calc__btn">6</button>
+              <button class="calc__btn">+</button>
+              <button class="calc__btn">1</button>
+              <button class="calc__btn">2</button>
+              <button class="calc__btn">3</button>
+              <button class="calc__btn">-</button>
+              <button class="calc__btn">.</button>
+              <button class="calc__btn">0</button>
+              <button class="calc__btn">/</button>
+              <button class="calc__btn">x</button>
+              <button class="calc__btn calc__btn__reset calc__btn--dif">RESET</button>
+              <button class="calc__btn calc__btn__igual">=</button>
+          </div>
+      </div>
+      </div>
     </div>
 </div>
-
+<script src="index.js"></script>
 </body>
 </html>

@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 @media (min-width: 1024px) {
-  body {
-    background-color: black;
+  /* Desktop Design */
+  .calc {
+    width: 700px;
+    height: 800px;
+  }
+  .calc__title {
+    color: hsl(0, 0%, 100%);
+    font-size: 48px;
+    margin: 0px 3px 40px 50px;
   }
 }
 
