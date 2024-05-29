@@ -13,45 +13,48 @@
   <div class="container">
       <div class="calc">
         <section class="header">
-          <h1>calc</h1>
+          <h1 class="calc__title">calc</h1>
           <div class="switch-container">
             <label>
-                <input type="radio" name="colorSwitch" value="1" checked> Opción 1
+              <p class="theme_text">1</p>
+                <input type="radio" name="colorSwitch" value="1" checked >
             </label>
             <label>
-                <input type="radio" name="colorSwitch" value="2"> Opción 2
+              <p class="theme_text">2</p>
+                <input type="radio" name="colorSwitch" value="2">
             </label>
             <label>
-                <input type="radio" name="colorSwitch" value="3"> Opción 3
+              <p class="theme_text">3</p>
+                <input type="radio" name="colorSwitch" value="3">
             </label>
         </div>
         </section>
         
       <div class="calc__result">
-          <h1 class="calc__numbers">399,981</h1>
+          <h1 class="calc__numbers" id="display">0</h1>
       </div>
 
       <div class="calc__background">
           
           <div class="calc__buttons">
-              <button class="calc__btn">7</button>
-              <button class="calc__btn">8</button>
-              <button class="calc__btn">9</button>
-              <button class="calc__btn calc__btn--dif">DEL</button>
-              <button class="calc__btn">4</button>
-              <button class="calc__btn">5</button>
-              <button class="calc__btn">6</button>
-              <button class="calc__btn">+</button>
-              <button class="calc__btn">1</button>
-              <button class="calc__btn">2</button>
-              <button class="calc__btn">3</button>
-              <button class="calc__btn">-</button>
-              <button class="calc__btn">.</button>
-              <button class="calc__btn">0</button>
-              <button class="calc__btn">/</button>
-              <button class="calc__btn">x</button>
-              <button class="calc__btn calc__btn__reset calc__btn--dif">RESET</button>
-              <button class="calc__btn calc__btn__igual">=</button>
+              <button class="calc__btn" onclick="appendNumber(7)">7</button>
+              <button class="calc__btn" onclick="appendNumber(8)">8</button>
+              <button class="calc__btn" onclick="appendNumber(9)">9</button>
+              <button class="calc__btn calc__btn--dif" onclick="deleteLast()">DEL</button>
+              <button class="calc__btn" onclick="appendNumber(4)">4</button>
+              <button class="calc__btn" onclick="appendNumber(5)">5</button>
+              <button class="calc__btn" onclick="appendNumber(6)">6</button>
+              <button class="calc__btn" onclick="appendOperator('+')">+</button>
+              <button class="calc__btn" onclick="appendNumber(1)">1</button>
+              <button class="calc__btn" onclick="appendNumber(2)">2</button>
+              <button class="calc__btn" onclick="appendNumber(3)">3</button>
+              <button class="calc__btn" onclick="appendOperator('-')">-</button>
+              <button class="calc__btn" onclick="appendDecimal()">.</button>
+              <button class="calc__btn" onclick="appendNumber(0)">0</button>
+              <button class="calc__btn" onclick="appendOperator('-')">/</button>
+              <button class="calc__btn" onclick="appendOperator('*')">x</button>
+              <button class="calc__btn calc__btn__reset calc__btn--dif" onclick="resetDisplay()">RESET</button>
+              <button class="calc__btn calc__btn__igual" onclick="calculate()">=</button>
           </div>
       </div>
       </div>

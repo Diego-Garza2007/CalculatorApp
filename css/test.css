@@ -37,6 +37,12 @@ body.theme-1 .container .calc__btn--dif:hover {
 body.theme-2 {
   background-color: hsl(0, 0%, 90%);
 }
+body.theme-2 .theme_text {
+  color: hsl(60, 10%, 19%);
+}
+body.theme-2 .container .calc__title {
+  color: hsl(60, 10%, 19%);
+}
 body.theme-2 .container .calc__result {
   background-color: hsl(0, 0%, 93%);
   color: hsl(60, 10%, 19%);
@@ -71,6 +77,12 @@ body.theme-2 .container .calc__btn--dif:hover {
 
 body.theme-3 {
   background-color: hsl(268, 75%, 9%);
+}
+body.theme-3 .theme_text {
+  color: hsl(52, 100%, 62%);
+}
+body.theme-3 .container .calc__title {
+  color: hsl(52, 100%, 62%);
 }
 body.theme-3 .container .calc__result {
   background-color: hsl(268, 71%, 12%);

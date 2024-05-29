@@ -25,6 +25,13 @@ body {
   border: none;
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
 .calc {
   width: 500px;
   height: 800px;
@@ -88,6 +95,23 @@ body {
 .calc__buttons .calc__btn__igual:hover {
   background: tomato;
   color: hsl(0, 0%, 100%);
+}
+
+.switch-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+}
+.switch-container label {
+  margin: 10px 10px 0px 10px;
+}
+.switch-container label p {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=index.css.map */

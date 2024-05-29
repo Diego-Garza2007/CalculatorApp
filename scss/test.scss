@@ -49,9 +49,15 @@ body.theme-1 {
 body.theme-2 {
     background-color: variables.$main-bg2;
 
+    .theme_text {
+        color: variables.$text2;
+    }
+
     .container {
         .calc {
-            
+            &__title {
+                color: variables.$text2;
+            }
             &__result {
                 background-color: variables.$screen-bg2;
                 color: variables.$text2;
@@ -96,9 +102,15 @@ body.theme-2 {
 body.theme-3 {
     background-color: variables.$main-bg3;
 
+    .theme_text {
+        color: variables.$text3;
+    }
+
     .container {
         .calc {
-            
+            &__title {
+                color: variables.$text3;
+            }
             &__result {
                 background-color: variables.$toggle-bg3;
                 color: variables.$text3;
